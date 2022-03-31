@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.header-img:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+}
+
+ul > img {
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
